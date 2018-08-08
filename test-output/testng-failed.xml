@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="tests.InvoicesListTest">
+        <methods>
+          <include name="resetMonth"/>
+          <include name="resetInvoices"/>
+          <include name="afterClass"/>
+          <include name="previewInvoice"/>
+          <include name="beforeClass"/>
+          <include name="lastMonth"/>
+          <include name="thisMonth"/>
+          <include name="filterClient"/>
+          <include name="numOfInvoices"/>
+        </methods>
+      </class> <!-- tests.InvoicesListTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
